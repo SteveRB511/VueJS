@@ -1,2 +1,2 @@
 # VueJS
-Exercise files for used while learning Vue.js
+Exercise files used while learning Vue.js

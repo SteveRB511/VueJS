@@ -6,7 +6,8 @@ var app = new Vue({
     /* el: element that connects to div with id of 'app' */
     el: '#app',
     data: {
-        product: 'Aircraft'
+        product: 'Aircraft',
+        image: "_vue_images/vmSocks_green-on-white.jpg"
     }
 
 })
