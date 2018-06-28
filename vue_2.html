@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title>VueJS Intro Tutorial</title>
+    <title>VueJS Intro Tutorial 2</title>
    <link rel="stylesheet" type="text/css" href="vue_2.css">
 </head>
 
@@ -17,7 +17,8 @@
         <div class="product">
 
             <div class="product-image">
-                <img src="" >
+                <!-- v-bind dynamically binds an attribute (src) to an expression (" image")  -->
+                <img v-bind:src="image" >
             </div>
 
             <div class="product-info">
